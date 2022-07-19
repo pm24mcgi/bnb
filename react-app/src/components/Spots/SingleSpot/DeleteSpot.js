@@ -7,11 +7,7 @@ const DeleteSpot = ({ spotId }) => {
 	const dispatch = useDispatch();
 	const onClick = () => {
 		dispatch(eraseSpot(spotId));
-<<<<<<< HEAD
 		dispatch(getSpots())
-=======
-		dispatch(getSpots());
->>>>>>> 40489992bf37c537456d7f83e1058c10e211dd23
 		history.push("/");
 	};
 
